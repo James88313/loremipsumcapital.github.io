@@ -1,0 +1,10 @@
+- name: Portfolio
+  link: /portfolio/
+- name: Team
+  link: /about/team/
+- name: Content
+  link: /content/
+- name: Briefings
+  link: /briefings/
+- name: About
+  link: /about/
