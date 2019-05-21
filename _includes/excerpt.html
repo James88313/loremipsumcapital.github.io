@@ -1,0 +1,25 @@
+<article class="post-list__item post-list__item--post">
+  <h3 class="post-list__item-title">
+    <a class="post-list__item-title-link" href="{{ post.url | absolute_url }}">{{ post.title }}</a>	
+  </h3>
+  <div class="byline byline--post-list">
+    <span class="byline__prefix">
+      by	
+    </span>
+    <span class="byline__authors">
+      <a href="/author/katie-haun/" target="" class="author">{{ post.author }}</a>		
+    </span>
+  </div>
+  
+  <ul class="post-terms post-terms--post-list">  
+    <li>
+      <a rel="tag" href="/category/blockchain-cryptocurrencies/">
+        cryptocurrencies &amp; blockchains	
+      </a>
+    </li>
+    
+    <li>
+      <a rel="tag" href="/articles/">articles</a>
+    </li>
+  </ul>
+</article>
